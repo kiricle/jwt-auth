@@ -1,6 +1,6 @@
 const bcrypt = require('bcrypt');
 const pool = require('../db');
-const UserDto = require('../dtos/userDTO');
+const UserDto = require('../dtos/userDto');
 const tokenService = require('./tokenService');
 const ApiError = require('../exceptions/apiError');
 
